@@ -1,0 +1,20 @@
+
+  210  cd linux
+  211  ls -al
+  212  git clone git@github.com:Segol777/Lenux12.git
+  213  ls -al
+  214  c Lenux12/
+  215  cd Lenux12/
+  216  git checkout -b feature
+  217  ls -al
+  218  nano .gitignore
+  219  ls -al
+  220  git status
+  221  git add .gitignore
+  222  git commit -m "Initial commit"
+  223  git status
+  224  git push origin feature
+  225  git commit --amend -m "Initial commit amended"
+  226  git checkout main
+  227  git merge feature
+  228  history > history.txt
